@@ -1,6 +1,6 @@
 /* Array - it is a collection of your data types either primitives , objects or complex data types stores in an array. */
 
-public class Array{
+public class Arra{
     public static void main(String[] args) {
         // Q: store a roll number
         int a = 19;
