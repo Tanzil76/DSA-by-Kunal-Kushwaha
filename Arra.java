@@ -21,6 +21,6 @@ public class Arra{
         int[] rnos2 = {23 , 12 , 45 , 32 , 15};
 
         int[] ros; // declaration of array. ros is getting defined in the stack.
-        ros = new int[]; // initialisation: actually here object is being created in the memory(heap).
+        ros = new int[]; // initialisation: actually here object is being created in the memory(heap)
     }
 }
