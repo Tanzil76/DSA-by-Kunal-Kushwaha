@@ -1,4 +1,4 @@
-import java.util.Arrays;
+import java.util.Arrays; // Arrays.toString() method ke liye, jo array ko readable format mein print karta hai.
 import java.util.Scanner;
 
 public class input2 {
