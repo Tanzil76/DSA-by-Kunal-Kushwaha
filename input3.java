@@ -10,5 +10,9 @@ public class input3 {
             str[i] = in.next();
         }
         System.out.println(Arrays.toString(str));
+
+        // modify
+        str[1] = "Tanzil";
+        System.out.println(Arrays.toString(str));
     }
 }
