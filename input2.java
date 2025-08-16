@@ -8,7 +8,7 @@ public class input2 {
         int[] arr = new int[5];
     
 
-        // input using for loops
+        // input using for loop
         for (int i = 0; i < arr.length; i++) {
             arr[i] = in.nextInt();
         }
