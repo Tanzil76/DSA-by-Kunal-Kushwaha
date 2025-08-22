@@ -1,3 +1,5 @@
+// two pointer method
+
 import java.util.Arrays;
 
 public class Reversethearray {
