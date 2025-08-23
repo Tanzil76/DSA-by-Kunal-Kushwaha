@@ -16,3 +16,6 @@ public class LinearSearchInString {
         return false;
     }
 }
+        
+       // Array ke liye: arr.length (without brackets)
+      //String ke liye: str.length() (with brackets, kyunki ye method hai)
