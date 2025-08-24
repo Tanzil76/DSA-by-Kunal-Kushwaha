@@ -1,3 +1,5 @@
+
+// search for 3 in the range of index [1, 4] 
 public class LinearSearchInRange {
     public static void main(String[] args) {
         int[] arr = {18, 12, -7, 3, 14, 28};
