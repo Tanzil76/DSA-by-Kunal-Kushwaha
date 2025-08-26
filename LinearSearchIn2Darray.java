@@ -9,7 +9,7 @@ public class LinearSearchIn2Darray {
             {18, 12}
         };
         int target = 3;
-        int[] ans = search(arr, target);
+        int[] ans = search(arr, target); // format of return value {row, col}
         System.out.println(Arrays.toString(ans));
     }
     static int[] search(int[][] arr, int target){
