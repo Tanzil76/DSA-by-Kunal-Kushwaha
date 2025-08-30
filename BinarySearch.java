@@ -28,4 +28,15 @@ public class BinarySearch {
         int ans = binarySearch(arr, target);
         System.out.println(ans);
       }
-}
+} // output : 10
+
+
+// Dry Run:
+
+/*
+ * Step	         start	     end	        mid calc	      mid	   arr[mid]      Compare	                Next move
+    1	           0	      12	    0 + (12-0)/2 = 6	   6	     4	          22 > 4	                 start = 7
+    2	           7	      12	    7 + (12-7)/2 = 9	   9	     18	          22 > 18	                 start = 10
+    3	           10	      12	    10 + (12-10)/2 = 11	   11	     45	          22 < 45	                 end = 10
+    4	           10	      10	    10 + (10-10)/2 = 10	   10	     22	          22 == 22 	                 return 10
+ */
