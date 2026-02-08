@@ -10,6 +10,7 @@ public class Array3 {
 
         int[] arr = new int[n];
         System.out.println(" Enter " + n + " elements ");
+        System.out.println(" ");
 
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
