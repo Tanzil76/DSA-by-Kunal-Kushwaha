@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class TwoPoint {
 
     static void printArray(int[] arr){    // ye method array ko print karta hai
-    int n = arr.length;                  // Array ka size n me store kiya
+    int n = arr.length;                  // Array ka size n mai store kiya
 
     // Loop 0 se n-1 tak chalega
     for(int i = 0; i < n; i++){
@@ -18,7 +18,7 @@ public class TwoPoint {
 
     static void swap(int[] arr, int i, int j){    // ye method aaray ke do elememts ko swap karta hai
     int temp = arr[i];                            // arr[i] ko temporary variable me store kiya
-    arr[i] = arr[j];                              // arr[j] ko arr[i] me daal diya
+    arr[i] = arr[j];                              // arr[j] ko arr[i] mai daal diya
     arr[j] = temp;                                // temp (original arr[i]) ko arr[j] me daal diya
 }
 
@@ -36,7 +36,7 @@ public class TwoPoint {
     /*
            Ab maan lo:
            zeroes = 3
-           Matlab array me 3 zero hain
+           Matlab array mai 3 zero hain
 
            To sorted array aisa hoga:
            index 0,1,2  -> 0
@@ -46,7 +46,7 @@ public class TwoPoint {
     // 0 to zeroes-1 : 0, zeroes to n-1 : 1
     for(int i = 0; i < n; i++){                  
         if(i < zeroes){
-            arr[i] = 0;                            // Pehle zeroes positions me 0 daalo
+            arr[i] = 0;                            // Pehle zeroes positions mai 0 daalo
         } else{
             arr[i] = 1;                          // Baaki sab jagah 1 daalo
         }
