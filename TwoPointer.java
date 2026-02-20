@@ -3,7 +3,7 @@
 
 import java.util.Scanner;
 
-public class TwoPoint {
+public class TwoPointer {
 
     static void printArray(int[] arr){    // ye method array ko print karta hai
     int n = arr.length;                  // Array ka size n mai store kiya
