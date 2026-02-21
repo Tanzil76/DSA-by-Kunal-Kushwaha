@@ -2,12 +2,12 @@ import java.util.Scanner;
 
 public class TwoPointer2 {
 
-    static void printArray(int[] arr){    // ye method array ko print karta hai
-    int n = arr.length;                  // Array ka size n mai store kiya
+    static void printArray(int[] arr){                // ye method array ko print karta hai
+       int n = arr.length;                           // Array ka size n mai store kiya
 
     // Loop 0 se n-1 tak chalega
     for(int i = 0; i < n; i++){
-        System.out.print(arr[i] + " ");   // Har element print karo
+        System.out.print(arr[i] + " ");             // Har element print karo
     }
 
     System.out.println();
