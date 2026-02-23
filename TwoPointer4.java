@@ -1,3 +1,6 @@
+
+//Given an integer array 'a' sorted in non -decreasing order, return an array of the squares of each number sorted in non-decreasing order.
+
 import java.util.Scanner;
 
 public class TwoPointer4 {
