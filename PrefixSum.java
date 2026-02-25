@@ -13,7 +13,7 @@ public class PrefixSum {
         System.out.println();
     }
 
-    static int[] mekPrefixSumArray(int[] arr){
+    static int[] makePrefixSumArray(int[] arr){
         int n = arr.length;
 
         for (int i = 1; i < n; i++) {
@@ -35,7 +35,7 @@ public class PrefixSum {
         System.out.print("Input Array: ");
         printArray(arr);
 
-        int[] pref = mekPrefixSumArray(arr);
+        int[] pref = makePrefixSumArray(arr);
         System.out.print("Prefix Sum: ");
         printArray(pref);
     }
