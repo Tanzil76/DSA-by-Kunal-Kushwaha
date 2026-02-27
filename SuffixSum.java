@@ -26,8 +26,6 @@ public class SuffixSum {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-    //    System.out.print("Input Array: ");
-    //    printArray(arr);
 
         int[] suff = makeSuffixSumArray(arr);
         System.out.print("Suffix Sum: ");
