@@ -7,8 +7,16 @@ public class TwoDarra {
         int[][] arr = new int[3][3];
 
         // input
+         /*
+         Outer loop → controls rows
+         arr.length = number of rows (3)
+        */
         for(int row = 0; row < arr.length; row++){
             // for each col in every row
+              /*
+             Inner loop → controls columns
+             arr[row].length = number of columns in that row (3)
+            */
             for(int col = 0; col < arr[row].length; col++){
                 arr[row][col] = in.nextInt();
             }
