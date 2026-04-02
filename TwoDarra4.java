@@ -9,6 +9,8 @@ public class TwoDarra4 {
         }
     }
     public static void main(String[] args) {
-        
+        for (for i = 0; i < args.length; i++) {
+            
+        }
     }
 }
