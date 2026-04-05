@@ -24,7 +24,7 @@ public class TwoDarra4 {
                 for (int k = 0; k < c1; k++) {
                     /*
                      i = 1, j = 0
-                     mul[i][j] = ith row of a * jth clo of b
+                     mul[i][j] = ith row of a * jth col of b
                       */
                     mul[i][j] += (a[i][k] * b[k][j]); 
                 }
