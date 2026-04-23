@@ -30,6 +30,18 @@ public class ArraList {
     // adding element at some index i 
     l1.add(1, 100);
     System.out.println(l1);
+
+    // modifying element at index i
+    l1.set(1, 10);
+    System.out.println(l1);
+
+    // removing element at index i
+    l1.remove(2);
+    System.out.println(l1);
+
+    // removing an element e
+    l1.remove(Integer.valueOf(7));
+    System.out.println(l1);
     
     }
 }
