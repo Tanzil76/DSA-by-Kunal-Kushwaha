@@ -23,6 +23,13 @@ public class ArraList {
     for (int i = 0; i < l1.size(); i++) {
         System.out.println(l1.get(i)); // 5, 6, 7, 8
     }
+
+    // printing the array list directly
+    System.out.println(l1); // [5, 6, 7, 8]
+
+    // adding element at some index i 
+    l1.add(1, 100);
+    System.out.println(l1);
     
     }
 }
