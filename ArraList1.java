@@ -1,4 +1,7 @@
+// Reverse an Array List 
+
 import java.util.ArrayList;
+import java.util.Collections; 
 
 public class ArraList1 {
 
@@ -27,6 +30,9 @@ public class ArraList1 {
         list.add(22);
         list.add(10);
         System.out.println("Original List " + list);
+
+    //    Collections.reverse(list); - second method to reverse an array list
+
         reverseList(list);
         System.out.println("Reversed List " + list);
     }
