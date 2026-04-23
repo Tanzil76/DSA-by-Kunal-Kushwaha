@@ -42,6 +42,16 @@ public class ArraList {
     // removing an element e
     l1.remove(Integer.valueOf(7));
     System.out.println(l1);
-    
+
+    // checking if an element exists
+    boolean ans = l1.contains(Integer.valueOf(5));
+    System.out.println(ans);
+
+    // if you don't specify class, you can put anything inside l
+    ArrayList l = new ArrayList<>();
+    l.add("java");
+    l.add(1);
+    l.add(true);
+    System.out.println(l);
     }
 }
