@@ -17,7 +17,7 @@ public class ArraList2 {
 
         System.out.println("Original List: " + list);
         
-        // Sort in descendinfg order
+        // Sort in descending order
         Collections.sort(list, Collections.reverseOrder());
         System.out.println("Descending Order List: " + list);
 
