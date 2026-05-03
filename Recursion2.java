@@ -10,10 +10,10 @@ public class Recursion2 {
             return;
         }
         // Self work
-        System.out.println(n);
+        System.out.println(n); // n
 
         // recursive work
-        printDecreasing(n-1);
+        printDecreasing(n-1); // n-1, n-2, ....1
 
     }
     public static void main(String[] args){
