@@ -11,7 +11,7 @@ public class Recursion {
         }
 
         printIncreasing(n-1); // 1, 2, .... n-1    -> Smaller subproblem
-        System.out.println(n);              // Self Work
+        System.out.println(n);                    // Self Work
     }
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
