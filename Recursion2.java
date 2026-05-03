@@ -1,3 +1,5 @@
+// write a program to print all natural numbers from n to 1 using recursion.
+
 import java.util.Scanner;
 
 public class Recursion2 {
