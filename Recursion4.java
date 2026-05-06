@@ -1,4 +1,4 @@
-// 
+// Program to find nth fibonacci number (optimal solution).
 
 public class Recursion4 {
 
