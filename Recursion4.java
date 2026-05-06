@@ -9,13 +9,15 @@ public class Recursion4 {
             return n;
         }
 
-        // Subproblem
-        int prev = fib(n-1);
-        int prePrev = fib(n-2);
+        return fib(n-1) + fib(n-2);
 
-        // Self work
-        int ans = prev + prePrev;
-        return ans;
+        // // Subproblem
+        // int prev = fib(n-1);
+        // int prePrev = fib(n-2);
+
+        // // Self work
+        // int ans = prev + prePrev;
+        // return ans;
     }
     public static void main(String[] args) {
         System.out.println(fib(6));
