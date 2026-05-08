@@ -1,4 +1,4 @@
-// Given an integer, find out the sum of its digits using recursion.(optimal solution)
+// Given an integer, find out the sum of its digits using recursion.(optimal)
 
 public class Recursion5 {
 
